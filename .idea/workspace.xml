@@ -15,7 +15,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f82a7ff-222f-42ae-9af4-62b9e6737077" name="Default Changelist" comment="" />
+    <list default="true" id="7f82a7ff-222f-42ae-9af4-62b9e6737077" name="Default Changelist" comment="1.yükleme" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,6 +34,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -144,8 +145,16 @@
       <option name="presentableId" value="Default" />
       <updated>1606177732580</updated>
       <workItem from="1606177734790" duration="3026000" />
-      <workItem from="1606181321398" duration="314000" />
+      <workItem from="1606181321398" duration="766000" />
     </task>
+    <task id="LOCAL-00001" summary="1.yükleme">
+      <created>1606182071012</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606182071012</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,17 +165,31 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1.yükleme" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.yükleme" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="717" y="117" key="FileChooserDialogImpl" timestamp="1606180481786">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="717" y="117" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1606180481786" />
+    <state x="798" y="259" key="Github.ShareDialog" timestamp="1606181444283">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="798" y="259" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1606181444283" />
   </component>
 </project>
