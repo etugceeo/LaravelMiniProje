@@ -11,11 +11,32 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f82a7ff-222f-42ae-9af4-62b9e6737077" name="Default Changelist" comment="1.yükleme" />
+    <list default="true" id="7f82a7ff-222f-42ae-9af4-62b9e6737077" name="Default Changelist" comment="1.yükleme">
+      <change afterPath="$PROJECT_DIR$/Project/app/Http/Controllers/AddressController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/app/Http/Controllers/AnasayfaController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/app/Http/Controllers/CompanyController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/app/Http/Controllers/PersonController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/ide_helper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/resources/views/address.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/resources/views/company.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/resources/views/layouts/master.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/resources/views/layouts/partials/footer.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/resources/views/layouts/partials/head.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/resources/views/layouts/partials/navbar.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/resources/views/person.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/LaravelMiniProje.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LaravelMiniProje.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/Project/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Project/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/Project/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Project/resources/views/anasayfa.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/Project/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,6 +56,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SET_USER_NAME_GLOBALLY" value="false" />
+  </component>
+  <component name="PhpServers">
+    <servers>
+      <server host="miniproje.test" id="ffd471b1-8907-43c2-81de-4f1e4d282fc6" name="miniproje.test" />
+    </servers>
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -125,16 +151,31 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1kiJy6pJpzbfvTWLbHtMewIo9iT" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\LaravelMiniProje\Project" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="mini proje" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" server_name="miniproje.test">
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -145,7 +186,13 @@
       <option name="presentableId" value="Default" />
       <updated>1606177732580</updated>
       <workItem from="1606177734790" duration="3026000" />
-      <workItem from="1606181321398" duration="766000" />
+      <workItem from="1606181321398" duration="2874000" />
+      <workItem from="1606248037917" duration="7664000" />
+      <workItem from="1606317571174" duration="7176000" />
+      <workItem from="1606396374312" duration="4640000" />
+      <workItem from="1606471389972" duration="4448000" />
+      <workItem from="1606492473267" duration="307000" />
+      <workItem from="1606502228297" duration="9001000" />
     </task>
     <task id="LOCAL-00001" summary="1.yükleme">
       <created>1606182071012</created>
@@ -154,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606182071012</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1.yükleme">
+      <created>1606182201258</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1606182201258</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,7 +222,18 @@
             <State>
               <option name="CUSTOM_BOOLEAN_PROPERTIES">
                 <map>
-                  <entry key="Show.Git.Branches" value="false" />
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
                 </map>
               </option>
             </State>
@@ -179,17 +244,46 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="1.yükleme" />
     <option name="LAST_COMMIT_MESSAGE" value="1.yükleme" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="618" y="55" key="#Inspections" timestamp="1606510800394">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="618" y="55" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1606510800394" />
+    <state x="526" y="23" key="#Servers" timestamp="1606182659305">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="526" y="23" key="#Servers/0.0.1366.728@0.0.1366.728" timestamp="1606182659305" />
+    <state x="596" y="11" width="770" height="717" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606182731456">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="596" y="11" width="770" height="717" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1606182731456" />
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1606264380738">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1606264380738" />
+    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1606331149305">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1606331149305" />
     <state x="717" y="117" key="FileChooserDialogImpl" timestamp="1606180481786">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="717" y="117" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1606180481786" />
-    <state x="798" y="259" key="Github.ShareDialog" timestamp="1606181444283">
+    <state x="798" y="259" key="Github.ShareDialog" timestamp="1606182321672">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="798" y="259" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1606181444283" />
+    <state x="798" y="259" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1606182321672" />
+    <state x="518" y="286" key="NewPhpFileDialog" timestamp="1606518985696">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="518" y="286" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1606518985696" />
+    <state x="368" y="0" key="SettingsEditor" timestamp="1606422312956">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="368" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1606422312956" />
   </component>
 </project>
