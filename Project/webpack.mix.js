@@ -13,3 +13,9 @@ let mix = require('laravel-mix');
 
 mix.js('resources/assets/js/app.js', 'public/js')
    .sass('resources/assets/sass/app.scss', 'public/css');
+
+mix.copy('resources/assets/js/admin-app.js','public/js/admin-app.js');
+mix.sass('resources/assets/sass/admin.scss','public/css/admin.css');
+
+mix.copy('resources/assets/js/auto-complete.js','public/js/auto-complete.js');
+mix.sass('resources/assets/sass/auto-complete.scss','public/css/auto-complete.css');

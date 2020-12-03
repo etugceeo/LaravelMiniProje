@@ -70,8 +70,31 @@ Route::get('/','AnasayfaController@index')->name('anasayfa');
 //Route::view('/person','person');
 Route::view('/address','address');
 //Route::get('/company/{slug_companyname}', 'CompanyController@index')->name('company');
-Route::get('/company', 'CompanyController@index');//->name('company');
+//Route::get('/company', 'CompanyController@index');//->name('company');
 //Route::get('/company/{slug_personname}', 'PersonController@index')->name('person');
-Route::get('/company', 'CompanyController@index');//->name('company');
+Route::get('/person', 'PersonController@index');//->name('company');
 //Route::get('/address/{slug_company}','AddressController@index')->name('address');
 Route::get('/address','AddressController@index');//->name('address')
+
+Route::group(['prefix' => 'company'], function () {
+    Route::get( '/', 'CompanyController@index')->name('company');
+    Route::get('/yeni', 'CompanyController@form')->name('company.yeni');
+    Route::get('/duzenle/{id}', 'CompanyController@form')->name('company.duzenle');
+    Route::post('/kaydet/{id?}', 'CompanyController@kaydet')->name('company.kaydet');
+    Route::get('/sil/{id}', 'CompanyController@sil')->name('company.sil');
+});
+Route::group(['prefix' => 'person'], function () {
+    Route::get( '/', 'PersonController@index')->name('person');
+    Route::get('/yeni', 'PersonController@form')->name('person.yeni');
+    Route::get('/duzenle/{id}', 'PersonController@form')->name('person.duzenle');
+    Route::post('/kaydet/{id?}', 'PersonController@kaydet')->name('person.kaydet');
+    Route::get('/sil/{id}', 'PersonController@sil')->name('person.sil');
+});
+
+Route::group(['prefix' => 'address'], function () {
+    Route::get( '/', 'AddressController@index')->name('address');
+    Route::get('/yeni', 'AddressController@form')->name('address.yeni');
+    Route::get('/duzenle/{id}', 'AddressController@form')->name('address.duzenle');
+    Route::post('/kaydet/{id?}', 'AddressController@kaydet')->name('address.kaydet');
+    Route::get('/sil/{id}', 'AddressController@sil')->name('address.sil');
+});
