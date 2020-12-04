@@ -17,49 +17,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f82a7ff-222f-42ae-9af4-62b9e6737077" name="Default Changelist" comment="1.yükleme">
-      <change afterPath="$PROJECT_DIR$/Project/app/Models/Address.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/app/Models/Company.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/app/Models/Person.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/database/migrations/2020_12_02_192112_create_address_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/database/seeds/CompanyTableSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/public/css/admin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/public/js/admin-app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/public/mix-manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/resources/assets/js/admin-app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/resources/assets/js/auto-complete.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/resources/assets/sass/admin.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/resources/assets/sass/auto-complete.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/resources/views/address/form.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/resources/views/address/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/resources/views/company/form.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/resources/views/company/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/resources/views/layouts/partials/alert.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/resources/views/layouts/partials/errors.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/resources/views/layouts/partials/sidebar.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/resources/views/person/form.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/resources/views/person/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/LaravelMiniProje.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LaravelMiniProje.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/app/Http/Controllers/AddressController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Project/app/Http/Controllers/AddressController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/app/Http/Controllers/AnasayfaController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Project/app/Http/Controllers/AnasayfaController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/.env.example" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Project/app/Http/Controllers/CompanyController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Project/app/Http/Controllers/CompanyController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/app/Http/Controllers/PersonController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Project/app/Http/Controllers/PersonController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/Project/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Project/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/Project/database/migrations/2020_11_30_211620_create_company_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/database/migrations/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/Project/database/migrations/2020_12_02_145006_create_person_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/Project/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/Project/public/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/Project/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/resources/views/company.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/resources/views/layouts/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Project/resources/views/layouts/master.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/resources/views/layouts/partials/head.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Project/resources/views/layouts/partials/head.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/resources/views/layouts/partials/navbar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Project/resources/views/layouts/partials/navbar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/resources/views/person.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/database/migrations/2020_11_30_211620_create_company_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/Project/database/migrations/2020_11_30_211620_create_company_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/resources/views/address/form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Project/resources/views/address/form.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/resources/views/company/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Project/resources/views/company/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/Project/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/Project/webpack.mix.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -310,10 +276,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="526" y="23" key="#Servers/0.0.1366.728@0.0.1366.728" timestamp="1606182659305" />
-    <state x="596" y="11" width="770" height="717" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606694772298">
+    <state x="596" y="11" width="770" height="717" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607048782505">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="596" y="11" width="770" height="717" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1606694772298" />
+    <state x="596" y="11" width="770" height="717" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1607048782505" />
     <state x="711" y="168" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606563992431">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -342,6 +308,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="518" y="286" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1607026690965" />
+    <state x="532" y="65" key="RollbackChangesDialog" timestamp="1607043680998">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="532" y="65" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1607043680998" />
     <state x="368" y="0" key="SettingsEditor" timestamp="1606693242451">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -354,5 +324,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="866" y="89" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1606577893805" />
+    <state x="500" y="276" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607060541023">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="500" y="276" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1607060541023" />
   </component>
 </project>

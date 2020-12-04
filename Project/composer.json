@@ -9,7 +9,9 @@
         "doctrine/dbal": "^3.0",
         "fideloper/proxy": "^4.0",
         "laravel/framework": "5.6.*",
-        "laravel/tinker": "^1.0"
+        "laravel/tinker": "^1.0",
+      "ext-http": "*",
+        "ext-curl": "*"
     },
     "require-dev": {
         "filp/whoops": "^2.0",

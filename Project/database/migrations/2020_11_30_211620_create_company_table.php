@@ -18,7 +18,7 @@ class CreateCompanyTable extends Migration
                 $table->increments('id');
                 $table->string('company_name');
                 $table->string('website');
-                $table->text('web_html')->nullable();
+                $table->longText('web_html')->nullable();
                 //$table->timestamps();
             });
     }

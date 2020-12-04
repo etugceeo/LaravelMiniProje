@@ -68,13 +68,13 @@ get('url','NameController@metodName');
 Route::get('/','AnasayfaController@index')->name('anasayfa');
 //Route::view('/company','company');
 //Route::view('/person','person');
-Route::view('/address','address');
+//Route::view('/address','address');
 //Route::get('/company/{slug_companyname}', 'CompanyController@index')->name('company');
 //Route::get('/company', 'CompanyController@index');//->name('company');
 //Route::get('/company/{slug_personname}', 'PersonController@index')->name('person');
-Route::get('/person', 'PersonController@index');//->name('company');
+//Route::get('/person', 'PersonController@index');//->name('company');
 //Route::get('/address/{slug_company}','AddressController@index')->name('address');
-Route::get('/address','AddressController@index');//->name('address')
+//Route::get('/address','AddressController@index');//->name('address')
 
 Route::group(['prefix' => 'company'], function () {
     Route::get( '/', 'CompanyController@index')->name('company');

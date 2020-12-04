@@ -37,7 +37,7 @@
 
                 <th>Şirket Adı</th>
                 <th>Web adresi</th>
-                <th>link</th>
+
             </tr>
             </thead>
             <tbody>
@@ -49,7 +49,7 @@
                     <td>{{ $entry->id }}</td>
                     <td>{{ $entry->company_name }}</td>
                     <td>{{ $entry->website }}</td>
-                    <td>{{ $entry->web_html }}</td>
+
 
                     <td style="width: 100px">
                         <a href="{{ route('company.duzenle', $entry->id) }}" class="btn btn-xs btn-success" data-toggle="tooltip" data-placement="top" title="Düzenle">

@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Company;
 use Illuminate\Http\Request;
+use const http\Client\Curl\Versions\CURL;
 
 class CompanyController extends Controller
 {
@@ -42,11 +43,27 @@ class CompanyController extends Controller
             if ($id > 0) {
                 //güncelle
                 $entry = Company::where('id', $id)->firstOrFail();
+                $ch = curl_init($data['website']);
+                curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+                $content = curl_exec($ch);
+                $data['web_html']=$content;
+                curl_close($ch);
                 $entry->update($data);
+
 
             }
             {
                 //kayıt oluştur
+                /*
+                $a=$data['website'];
+                $veri = file_get_contents($a);
+                $data[web_html]=$veri;
+                */
+                $ch = curl_init($data['website']);
+                curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+                $content = curl_exec($ch);
+                $data['web_html']=$content;
+                curl_close($ch);
                 $entry = Company::create($data);
 
             }

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="database.sqlite" uuid="824737b9-1fb3-4161-ba75-5a98fa0e5dc4">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:C:\LaravelMiniProje\Project\database\database.sqlite</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Laravel_miniproje@localhost" uuid="31eaec04-edd9-4d2d-909d-596d906d6be4">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/Laravel_miniproje</jdbc-url>
+    </data-source>
+  </component>
+</project>
