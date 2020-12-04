@@ -6,27 +6,26 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
     </expand>
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f82a7ff-222f-42ae-9af4-62b9e6737077" name="Default Changelist" comment="1.yükleme">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/.env.example" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/app/Http/Controllers/CompanyController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Project/app/Http/Controllers/CompanyController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/Project/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/database/migrations/2020_11_30_211620_create_company_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/Project/database/migrations/2020_11_30_211620_create_company_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/resources/views/address/form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Project/resources/views/address/form.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/resources/views/company/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Project/resources/views/company/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/Project/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php" beforeDir="false" />
-    </list>
+    <list default="true" id="7f82a7ff-222f-42ae-9af4-62b9e6737077" name="Default Changelist" comment="1.yükleme" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,6 +41,9 @@
         <option value="composer.json" />
       </list>
     </option>
+  </component>
+  <component name="Git.Rebase.Settings">
+    <option name="NEW_BASE" value="master" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -241,17 +243,6 @@
               <option name="CUSTOM_BOOLEAN_PROPERTIES">
                 <map>
                   <entry key="Show.Git.Branches" value="true" />
-                </map>
-              </option>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="master" />
-                      </list>
-                    </value>
-                  </entry>
                 </map>
               </option>
             </State>
