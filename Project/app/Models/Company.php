@@ -8,6 +8,7 @@ class Company extends Model
 {
     protected  $table= "company";
     // protected $guarded=[];
+    /**/
     protected $fillable = array('company_name', 'website', 'web_html');
     public $timestamps = false;
     public function people()

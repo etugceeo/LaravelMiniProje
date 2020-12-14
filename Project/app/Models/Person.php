@@ -14,6 +14,7 @@ class Person extends Model
     public $timestamps = false;
 
     /**
+     *
      * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
      */
     public function company()

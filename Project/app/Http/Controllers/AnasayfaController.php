@@ -11,5 +11,7 @@ class AnasayfaController extends Controller
 
 
         return view('anasayfa');
+        /*
+         * */
     }
 }

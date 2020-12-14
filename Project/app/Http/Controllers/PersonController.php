@@ -55,6 +55,7 @@ class PersonController extends Controller
         {
             //kayıt oluştur
             $entry = Person::create($data);
+            /**/
 
         }
 

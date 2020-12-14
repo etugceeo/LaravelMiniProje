@@ -22,6 +22,13 @@
   <component name="ChangeListManager">
     <list default="true" id="7f82a7ff-222f-42ae-9af4-62b9e6737077" name="Default Changelist" comment="1.yükleme">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/app/Console/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/Project/app/Console/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/app/Exceptions/Handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/Project/app/Exceptions/Handler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/app/Http/Controllers/AddressController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Project/app/Http/Controllers/AddressController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/app/Http/Controllers/AnasayfaController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Project/app/Http/Controllers/AnasayfaController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/app/Http/Controllers/CompanyController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Project/app/Http/Controllers/CompanyController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/app/Http/Controllers/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/Project/app/Http/Controllers/Controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/app/Http/Controllers/PersonController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Project/app/Http/Controllers/PersonController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,7 +208,7 @@
       <workItem from="1606860116988" duration="3302000" />
       <workItem from="1606914023469" duration="25631000" />
       <workItem from="1606994111873" duration="39730000" />
-      <workItem from="1607900736901" duration="598000" />
+      <workItem from="1607900736901" duration="1720000" />
     </task>
     <task id="LOCAL-00001" summary="1.yükleme">
       <created>1606182071012</created>

@@ -27,6 +27,7 @@ class CompanyController extends Controller
         }
         return view('company.form',compact('entry'));
         //form entry bilgileri ile gelmesini için compact
+        /**/
     }
 
         public function kaydet($id=0)
